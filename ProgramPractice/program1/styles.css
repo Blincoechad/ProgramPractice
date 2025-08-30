@@ -1,11 +1,13 @@
+html, body {
+    background: rgb(135, 175, 144);
+}
 .container {
     height: 400px;
     width: 350px;
     margin-left: 220px;
     border-radius: 10px;
     box-shadow:15px 8px 18px rgba(0, 0, 10, 0.9);
-    background-color: rgb(35, 233, 28, 20);
-    ;
+    background-color: rgb(18, 208, 18);
     border-width: 12px;
     border-style: solid;
     border-color: rgba(25, 14, 16, 0.5);
@@ -34,6 +36,7 @@
     border-width: 4px;
     background-color: grey;
     z-index: 1000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 .about-me-container a {
@@ -41,10 +44,13 @@
     padding-bottom: 40px;
 }
 .text-by-button {
-    color: rgb(16, 17, 16)
+    color: rgb(5, 6, 5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    padding-left: 310px;
 }
 button {
-    background-color: lightgreen;
+    background-color: rgb(51, 206, 51);
     border-radius: 8px;
     border-width: 9px;
     padding: 10px;
@@ -54,4 +60,10 @@ button {
 button:hover {
     background-color: green;
     color: white;
+}
+.about-me-button {
+    margin-top: 10px;;
+}
+.pictureLink {
+    margin-top: 50px;
 }

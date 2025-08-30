@@ -11,7 +11,7 @@ const chad = {
     age: 32,
     occupation: 'Web Designer/Developer',
     location: 'Florida',
-    experience: `Ive been doing many course online for Web Designing and Development for a little over a year
+    experience: `Ive been doing many courses online for Web Designing and Development for a little over a year
     now. I began school beginning of last year to earn my college certificate
     so I be well profient in as many areas of Web Development as possible. I continue to grow my skills
     and learn new things as often as I can. Ive have learned alot involving Git and Github, and the
@@ -27,7 +27,6 @@ function getBikeSpecs() {
         <p><strong>Model:</strong> ${bike.model}</p>
     `;
     document.querySelector('.container').innerHTML = bikeSpecs;
-   ;
 
 }
 const getMyInfo = () => {
@@ -37,7 +36,7 @@ const getMyInfo = () => {
         <p><strong>Occupation:</strong> ${chad.occupation}</p>
         <p><strong>Location:</strong> ${chad.location}</p>
         <p><strong>Experience:</strong> ${chad.experience}</p>
-        <a href="./media/123_1.jpeg" title="View Bike Image">View Bike Image</a>
+        
     `;
 
         document.querySelector('.about-me-container').innerHTML = myInfo;
