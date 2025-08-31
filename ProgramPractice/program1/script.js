@@ -42,3 +42,4 @@ const getMyInfo = () => {
         document.querySelector('.about-me-container').innerHTML = myInfo;
 
 }
+// add hyperlink
