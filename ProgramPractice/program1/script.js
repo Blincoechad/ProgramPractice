@@ -17,6 +17,7 @@ const chad = {
     and learn new things as often as I can. Ive have learned alot involving Git and Github, and the
     command line commands to push, pull, add, edit and so on. `
 }
+
 function getBikeSpecs() {
     const bikeSpecs = `
         <h2>Bike Specifications</h2>
@@ -40,6 +41,10 @@ const getMyInfo = () => {
     `;
 
         document.querySelector('.about-me-container').innerHTML = myInfo;
+}
+function resetDefault () {
+ document.getElementById('about-me-container').innerHTML = "";
+ document.querySelector('.container').innerHTML = "";
 
 }
 // add hyperlink
