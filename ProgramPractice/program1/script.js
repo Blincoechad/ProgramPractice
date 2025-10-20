@@ -33,6 +33,11 @@ function getBikeSpecs() {
 const getMyInfo = () => {
     const myInfo = `
         <h1>Chad Blincoe</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <p><strong>Age:</strong> ${chad.age}</p>
         <p><strong>Occupation:</strong> ${chad.occupation}</p>
         <p><strong>Location:</strong> ${chad.location}</p>

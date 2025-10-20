@@ -1,5 +1,11 @@
 html, body {
     background: rgb(135, 175, 144);
+    width: fit-content;
+    height: fit-content;
+}
+h1 {
+    position: relative;
+    left: 320px
 }
 .container {
     height: 400px;
@@ -24,12 +30,12 @@ html, body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .about-me-container {
-    height: 400px;
+    height: 450px;
     width: 550px;
     padding-left: 10px;
     margin-left: 10px;
     margin-top: -30px;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
     border-radius: 12px;
     border-color: black;
     border-style: solid;
@@ -119,16 +125,18 @@ button:hover {
             box-sizing: border-box;
             max-width: 100%;
             max-height: 100%;
-            padding-left: 10px;
-            margin-left: 170px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 40px;
             margin-top: -30px;
+            margin-bottom: 20px;
         }
         .about-me-container a {
             margin-bottom: 40px;
             padding-bottom: 40px;
         }
         .text-by-button {
-            padding-left: 250px;
+            padding-left: 50px;
         }
         button {
             padding: 10px;
@@ -140,12 +148,28 @@ button:hover {
         }
         resetButton {
             margin-top: 40px;
-            margin-left: 30px;
-            width: 200px;
+            margin-left: 10px;
+            width: 100px;
             padding: 20px;
         }
         resetButton:hover {
             color: white;
             font-weight: bold;
         }
+        #bikeImage {
+        position: absolute;
+        left: 220px;
+        top: 500px;
+        
+    }
+    .pictureLink {
+        position: absolute;
+        left: 40px;
+        top: 340px;
+        width: 130px;
+    }
+    h1 {
+        position: absolute;
+        left: 220px
+    }
     }
