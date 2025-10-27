@@ -70,10 +70,10 @@ h2 {
 }
 .outputContainer p {
     font-size: 24px;
-    color: rgb(130, 127, 127);
+    color: rgb(252, 251, 251);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 4px;
-    font-family: fantasy;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     animation: textGlow 1s infinite alternate;
     margin: 0;
     padding: 0;
@@ -84,10 +84,10 @@ h2 {
 text glow */
 @keyframes  textGlow {
     from {
-        text-shadow: 0 0 5px rgb(19, 70, 13), 0 0 10px rgb(129, 106, 222), 0 0 20px rgb(48, 86, 189);
+        text-shadow: 0 0 5px rgb(4, 4, 4), 0 0 10px rgb(247, 246, 250), 0 0 20px rgb(7, 9, 15);
     }
     to {
-        text-shadow: 0 0 10px rgb(0, 1, 10), 0 0 20px rgb(12, 72, 146), 0 0 30px rgb(53, 76, 181);
+        text-shadow: 0 0 10px rgb(1, 1, 1), 0 0 60px rgb(238, 240, 242), 0 0 30px rgb(5, 5, 6);
     }
 h1 {
     color: rgb(28, 139, 71);
